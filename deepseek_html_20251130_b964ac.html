@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of Chocolate</title>
+    <style>
+        /* Bước 3: Style cho body */
+        body {
+            font-family: 'Arial', sans-serif;
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        /* Bước 4: Style cho header */
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Bước 5: Style cho nav */
+        nav {
+            background-color: #34495e;
+            padding: 15px 0;
+        }
+
+        /* Bước 6: Style cho main */
+        main {
+            background-color: #ffffff;
+            font-size: 18px;
+            padding: 30px;
+            min-height: 500px;
+            margin: 20px auto;
+            max-width: 1200px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        /* Bước 7: Style cho footer */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 20px;
+        }
+
+        /* Bước 8: Style cho li */
+        li {
+            display: inline-block;
+            width: 120px;
+            text-align: center;
+        }
+
+        /* Bước 9: Style cho các thẻ heading */
+        h1, h2, h3, h4, h5, h6 {
+            text-align: center;
+            font-family: 'Georgia', serif;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+
+        /* Bước 10: Style cho p */
+        p {
+            line-height: 1.8;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        /* Additional styling for navigation */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        nav li {
+            margin: 0 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: block;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #1abc9c;
+            color: white;
+        }
+
+        /* Style for images */
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+        }
+
+        /* Style for links in content */
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Style for lists in content */
+        ul, ol {
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+
+        ul li, ol li {
+            display: list-item;
+            width: auto;
+            margin: 5px 0;
+            text-align: left;
+        }
+
+        /* Style for cards */
+        .chocolate-card {
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            border-left: 4px solid #8B4513;
+        }
+
+        .chocolate-card h4 {
+            color: #8B4513;
+            margin-top: 0;
+        }
+
+        /* Style for tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            body {
+                font-size: 14px;
+            }
+            
+            main {
+                font-size: 16px;
+                padding: 20px;
+                margin: 10px;
+            }
+            
+            li {
+                display: block;
+                width: 100%;
+                margin: 5px 0;
+            }
+            
+            nav li {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Types of Chocolate</h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="types.html">Types</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <h2>Exploring Chocolate Varieties</h2>
+        <img src="https://images.unsplash.com/photo-1606313564204-2c9ec2f72a6a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Different types of chocolate" width="600">
+        
+        <p>There are several types of chocolate, classified according to the proportion of cocoa used in a particular formulation. The use of particular name designations is sometimes subject to international governmental regulation.</p>
+
+        <h3>Main Chocolate Categories</h3>
+        
+        <div class="chocolate-card">
+            <h4>Dark Chocolate</h4>
+            <p>Dark chocolate contains cocoa solids and cocoa butter, without the milk found in milk chocolate. Government and industry standards of what products may be labeled "dark chocolate" vary by country and market.</p>
+            <p><strong>Cocoa Content:</strong> Typically 50-90%</p>
+            <p><strong>Flavor Profile:</strong> Bitter, rich, intense chocolate flavor</p>
+            <p><strong>Best Uses:</strong> Baking, gourmet desserts, eating plain</p>
+        </div>
+
+        <div class="chocolate-card">
+            <h4>Milk Chocolate</h4>
+            <p>Milk chocolate is solid chocolate made with milk added in the form of powdered milk, liquid milk, or condensed milk. In 1875, Swiss confectioner Daniel Peter invented milk chocolate by mixing a powdered milk developed by Henri Nestlé with the liquor.</p>
+            <p><strong>Cocoa Content:</strong> Typically 10-50%</p>
+            <p><strong>Flavor Profile:</strong> Sweet, creamy, mild chocolate flavor</p>
+            <p><strong>Best Uses:</strong> Candy bars, desserts, general consumption</p>
+        </div>
+
+        <div class="chocolate-card">
+            <h4>White Chocolate</h4>
+            <p>White chocolate is made of sugar, milk, and cocoa butter, without the cocoa solids. It is pale ivory in color, and lacks many of the compounds found in milk and dark chocolates. Some countries don't classify it as chocolate at all.</p>
+            <p><strong>Cocoa Content:</strong> 0% (contains cocoa butter only)</p>
+            <p><strong>Flavor Profile:</strong> Very sweet, creamy, vanilla-like</p>
+            <p><strong>Best Uses:</strong> Baking, confections, decorative work</p>
+        </div>
+
+        <div class="chocolate-card">
+            <h4>Ruby Chocolate</h4>
+            <p>Ruby chocolate is a variety of chocolate introduced in 2017 by Barry Callebaut, a Belgian–Swiss cocoa company. The variety has been in development since 2004 and was presented to the public at a private event in Shanghai on 5 September 2017.</p>
+            <p><strong>Cocoa Content:</strong> Similar to white chocolate</p>
+            <p><strong>Flavor Profile:</strong> Berry-like, slightly sour, smooth</p>
+            <p><strong>Best Uses:</strong> Specialty confections, novelty items</p>
+        </div>
+
+        <h3>Chocolate Quality Factors</h3>
+        <ul>
+            <li><strong>Cocoa Content:</strong> Percentage of cocoa mass in the final product</li>
+            <li><strong>Bean Origin:</strong> The region where cocoa beans are grown affects flavor</li>
+            <li><strong>Processing Method:</strong> How beans are fermented, dried, and roasted</li>
+            <li><strong>Conching Time:</strong> Duration of the final mixing process affects smoothness</li>
+            <li><strong>Tempering:</strong> The crystallization process that gives chocolate its shine and snap</li>
+            <li><strong>Additives:</strong> Presence of vanilla, lecithin, or other flavorings</li>
+        </ul>
+
+        <h3>Chocolate Comparison Table</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Type</th>
+                    <th>Cocoa Content</th>
+                    <th>Milk Content</th>
+                    <th>Sweetness</th>
+                    <th>Best For</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dark Chocolate</td>
+                    <td>50-90%</td>
+                    <td>None</td>
+                    <td>Low to Medium</td>
+                    <td>Baking, Gourmet</td>
+                </tr>
+                <tr>
+                    <td>Milk Chocolate</td>
+                    <td>10-50%</td>
+                    <td>12%+</td>
+                    <td>High</td>
+                    <td>Eating, Candy</td>
+                </tr>
+                <tr>
+                    <td>White Chocolate</td>
+                    <td>0%</td>
+                    <td>14%+</td>
+                    <td>Very High</td>
+                    <td>Decoration, Baking</td>
+                </tr>
+                <tr>
+                    <td>Ruby Chocolate</td>
+                    <td>Similar to White</td>
+                    <td>Varies</td>
+                    <td>Medium</td>
+                    <td>Specialty Items</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Choosing the Right Chocolate</h3>
+        <p>When selecting chocolate for different purposes, consider the cocoa percentage, quality of ingredients, and intended use. High-quality chocolate will have a smooth texture, glossy appearance, and clean snap when broken. Store chocolate in a cool, dry place away from strong odors to preserve its flavor.</p>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Chocolate Enthusiasts. All rights reserved.</p>
+    </footer>
+</body>
+</html>
